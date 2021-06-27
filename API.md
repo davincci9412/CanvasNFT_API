@@ -307,8 +307,12 @@ Example Query:
 
 
 ### 8.canvas余额，pixel余额（Wayne）
-
-
+pixel余额 测试网合约地址:  https://ropsten.etherscan.io/address/0xe116d5cE7526b38faf0862f7065A29517f2c6FE1#code
+                  方法： balanceOf（Address）
+		  
+canvas余额 测试网合约地址:  https://ropsten.etherscan.io/address/0xFe8EA5ac35695f4c419cb8F64Fd17c883D570744#code
+                  方法： balanceOf（Address）
+		  
 
 ### 9.挖矿接口（Wayne）
 > 9.1获取当前矿池apy  
@@ -351,9 +355,12 @@ Example Query:
 ```
 
 > 9.2抵押代币
+  测试网合约地址:  https://ropsten.etherscan.io/address/0x238F6f1b7F7285c935cf80752b8407499eE50F39#code
+                  方法： deposit(uint256 _pid(池子编号), uint256 _amount)
 
 > 9.3提取抵押代币
-
+  测试网合约地址:  https://ropsten.etherscan.io/address/0x238F6f1b7F7285c935cf80752b8407499eE50F39#code
+                  方法： withdraw(uint256 _pid(池子编号), uint256 _amount)
 
 
 
